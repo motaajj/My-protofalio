@@ -1,0 +1,642 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.top{
+    width: 100%;
+    background: linear-gradient(0.25turn,#07a66c, rgba(16, 15, 14, 0.829));
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    padding-top: 2px;
+
+    
+}
+
+img.logo{
+    width: 61px;
+    height: 55px;
+
+}
+
+img.list-icon{
+    width: 45px;
+    height: 50px;
+        cursor: pointer;
+        visibility: hidden;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+ul>li{
+    margin-right:15px;
+    cursor: pointer;
+    font-weight:500;
+    color: white;
+            transition: all 0.5s  0s ease;
+
+}
+
+img.moh{
+    width: 70vh;
+    height: 64vh;
+    margin-top:30px
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    height:auto;
+    align-items: center;
+    margin:-15px 20px 0 20px;
+    height: 90vh;
+}
+h1{
+    color:#07a66c;
+    margin:10px 0 5px 0;
+        transition: all 1s 0s linear;
+}
+
+.side{
+    display: grid;
+    border: solid 2px #07a66c ;
+    padding: 50px;
+    margin-top: 40px;
+    box-shadow: 8px 8px #07a66c ;
+    transition: all 1s 0s linear;
+
+}
+
+p.mr{
+    font-size: 25px;
+    font-weight: 800;
+        transition: all 1s 0s linear;
+
+}
+
+p{
+    font-size: 25px;
+    color: rgba(16, 15, 14, 0.829);
+        transition: all 1s 0s linear;
+
+}
+
+span{
+    color:#07a66c ;
+        transition: all 1s 0s linear;
+
+}
+
+.info{
+    margin-top: 15px;
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+    width:100%;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    text-align: center;
+    color:white;
+    background-color: #07a66c;
+    border-radius: 10px;
+    border: dotted 2px white;
+            transition: all 1s 0s linear;
+
+    
+
+    /* align-items: center; */
+
+}
+
+#title-up{
+    color: rgba(16, 15, 14, 0.829);
+    text-align: center;
+    padding-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.w{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+
+.title-up2{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.ui-ux{
+    height: auto;
+    background: linear-gradient(#07a66c, rgba(16, 15, 14, 0.829));
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.nside{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    margin-top: 20px;
+    
+
+}
+h2.title{
+    padding-top: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 40px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.655);
+}
+
+
+
+h4{
+    color: white;
+}
+.about-uxux{
+    transition: all 1s 0s linear;
+    text-align: center;
+    align-self: center;
+    border: solid 2px black;
+    padding: 30px;
+    box-shadow: 5px 5px 20px black ;
+   margin-bottom: 20px;
+
+
+}
+
+.about-video{
+    padding-top: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 12px;
+    height: 35px;
+    font-weight: 100;
+}
+
+video{
+    box-shadow: 3px 3px 10px rgb(23, 23, 24);
+
+
+}
+
+.front-end{
+    height: auto;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.front-title{
+    color: #07a66c;
+    margin-top: 20px;
+    padding-top: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 40px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.655);
+}
+
+.about-front-end{
+    border: solid 4px #07a66c;
+    border-radius: 10px 0 10px 0 ;
+    background-color: #07a66c3e;
+    box-shadow: 3px 3px #07a66c;
+    padding: 30px;
+    box-shadow: 5px 5px 20px black ;
+    padding: 10px;
+    margin: 15px;
+    transition: all 1s 0s linear;
+    width: auto;
+    height: auto;
+    
+
+}
+
+.front-end-projects{
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-column-gap: 2px;
+  grid-row-gap:2px;
+}
+    
+
+
+.front-end-imgs{
+    height: 240px;
+    cursor: pointer;
+    width: auto;
+
+}
+.important{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+#important-message{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+
+}
+
+.title-front{
+    margin-bottom: 10px;
+  text-decoration: dotted;
+  font-size: 22px;
+  font-variant: small-caps;
+  border-bottom: solid 2px #07a66c;
+  padding-bottom: 5px;
+}
+.info-site{
+    font-size: 13px;
+    padding-top: 14px;
+}
+
+li:hover{
+    border-bottom: solid 2px white ;
+        transform: translateY(-2px);
+
+}
+
+.side:hover{
+    border: solid 2px #07a66c ;
+    padding: 50px;
+    margin-top: 40px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.785) ;
+    background-color: #07a66c;
+    color: white;
+
+}
+  .side:hover h1  {
+    color: white;
+
+}
+
+  .side:hover p.mr  {
+    color: white;
+   
+}
+
+  .side:hover p  {
+    color: white;
+   
+}
+
+  .side:hover span  {
+    color: black;
+   
+}
+
+.side:hover .info{
+    color: black;
+    border: solid 2px white;
+}
+
+.about-front-end:hover{
+    background-color: #07a66c;
+    border-radius: 20px;
+    transform: scale(0.9);
+}
+
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev{
+    left: 0%;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 2px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.side-bar{
+    width: 110px;
+    height: 230px;
+    position: absolute;
+    background-color: #07a66ca8;
+    left: 91%;
+    border-radius: 4px;
+    transition: all 1s 0s ease-in-out;
+    display: none;
+    
+    
+}
+
+.side-bar > ul{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    
+   
+}
+
+.side-bar > ul > li {
+   padding-top: 20PX;
+}
+
+ .side-bar >  ul  > li :hover   {
+        border-bottom: none;
+        transform: none;
+        font-size: 16px;
+        background-color: rebeccapurple;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.img-slide{
+    padding: 30px;
+    width: auto;
+    height: auto;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.information{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+}
+
+.information > h1 {
+   
+    color: #07a66c;
+    margin-top: 20px;
+    padding-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.655);
+}
+
+.information > .grid-info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.back-top{
+    position: fixed;
+    cursor: pointer;
+    padding: 12px;
+    left: 14px;
+    bottom: 16px;
+    border: solid 3px #07a66c;
+    background-color: #bbbbbb03;
+    font-weight: bold;
+    border-radius: 10px;
+    visibility: hidden;
+    box-shadow: 3px 3px 3px #07a66c;
+    color: rgba(255, 0, 0, 0.678);
+
+}
+
+.back-top:hover{
+    background-color: white;
+}
+
+.grid-info > .box {
+    border: solid 3px #07a66c;
+    padding: 20px;
+    border-radius: 10px 3px 10px 3px;
+    box-shadow: 2px 7px 10px #07a66c;
+    background-color: #7171714a;
+    margin:10px 0px 20px 0px;
+    animation: box 8s 1s infinite linear;
+    width: 40%;
+
+}
+
+.box > h4 {
+    padding-bottom: 10px;
+    border-bottom: solid 2px #07a66c;
+    color: black;
+    font-size: 20px;
+}
+
+.box > p{
+    color: black;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+p, span{
+    padding-top: 10px;
+    font-weight: bolder;
+
+}
+
+@keyframes box {
+    0%{    box-shadow: 2px 7px 10px #07a66c;}
+        30%{    box-shadow: 2px 12px 10px #046c46;}
+    50%{    box-shadow: 2px 15px 10px #034a30;}
+    70%{    box-shadow: 2px 20px 10px #023e28;}
+    100%{    box-shadow: 2px 10px 10px #07a66c;}
+
+}
+
+
+@media screen and (max-width:832px) {
+ .side{
+width: auto;
+display: grid;
+align-items: center;
+}
+
+.side >h1 {
+    font-size:25px;
+}
+
+.side > p {
+        font-size:20px;
+
+}
+
+/* img.-list-icon{
+    display: none;
+} */
+
+
+}
+
+@media screen and (max-width:614px){
+
+.first{
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav {
+    display: none;
+}
+
+
+
+img.list-icon{
+    width: 35px;
+    height: 40px;
+        cursor: pointer;
+        visibility:visible;
+
+}
+
+.side-bar{
+    left: 78%;
+}
+
+li{
+    font-size: 12px;
+}
+
+.about-front-end{
+    width: 450px ;
+    justify-self: center;
+} 
+
+.front-end-projects{
+    justify-self: center;
+    justify-content: center;
+}
+.front-end-imgs{
+    width: 300px;
+    height: 150px;
+}
+
+.information > .grid-info {
+    display: grid;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    justify-self: center;
+}
+
+.box > h4 {
+    font-size: 15px;
+}
+.box > p {
+    font-size: 12px;
+}
+
+.box > span {
+    font-size: 12px;
+}
+}
+
+
+
+/* .side{
+    border: solid 2px black;
+} */
+/* #07a66c */
